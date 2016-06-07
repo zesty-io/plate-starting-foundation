@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plate_variables>
+   <created_date>2016-06-08</created_date>
+   <plate>Zesty.io Starter Foundation</plate>
+   <created_by>Zesty</created_by>
+   <kitchen>barebones</kitchen>
+   <variables>
+      <color name="body-bg" name_friendly="Body Background Color">
+         <category>1</category>
+         <description>The primary background for elements</description>
+         <sort>5</sort>
+         <edit_in_content>1</edit_in_content>
+         <locked>0</locked>
+         <value><![CDATA[#ffffff]]></value>
+      </color>
+       </variables>
+</plate_variables>
