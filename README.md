@@ -1,5 +1,5 @@
 # Starting Foundation 
-A Skeleton (Temp)Plate for Zesty.io
+A Skeleton (Temp)Plate for Zesty.io that is used as the example repo in the template creation doc: [https://developer.zesty.io/docs/templating/building-a-template-with-github/](https://developer.zesty.io/docs/templating/building-a-template-with-github/)
 
 Zesty.io templates are comprised of multiple files that tell Zesty.io how to build a starting content configuration, and which HTML, CSS, and Javascript files to install. Templates also tell Zesty.io what to Typfaces like Google Fonts and Javascript frameworks like JQuery to start with.
 
