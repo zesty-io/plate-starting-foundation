@@ -1,3 +1,5 @@
+![Cover Image](https://github.com/zesty-io/plate-starting-foundation/blob/master/cover.png)
+
 # Starting Foundation 
 A Skeleton (Temp)Plate for Zesty.io that is used as the example repo in the template creation doc: [https://developer.zesty.io/docs/templating/building-a-template-with-github/](https://developer.zesty.io/docs/templating/building-a-template-with-github/)
 
