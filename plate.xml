@@ -33,6 +33,26 @@
 			
 			
 		</templateset>
+		<templateset name="about" name_friendly="About" view="about">
+			<!-- there are 3 types of content set types, Templatesets (Single Page), Pagesets (Multi-page like artciles), and Datasets (tables or supplementatl data). The hompage is a single page, so it is a templateset. -->
+			<fields>
+				<text name="title" name_friendly="Lead in Title" required="1" />
+				<wysiwyg_advanced name="content" name_friendly="Intro Text" />
+				<images name="image" name_friendly="Main Image" limit="1" />
+			</fields>
+			
+			<!-- each content set needs to be preloaded with content, you can see that the xml tag names below match the field names above-->
+			<items>
+				<item link_title="About" path_part="about"> <!-- the path part zesty_home sets the homepage--> 
+					<title><![CDATA[Starting Foundation]]></title>
+					<!-- wrapping content in CDATA is neccesary -->
+					<content><![CDATA[<p>Stop coding non-responsive sites. Let users view sites from anywhere.</p>]]></content>
+					<image><![CDATA[https://raw.githubusercontent.com/zesty-io/plate-starting-foundation/master/shield.png]]></image>
+				</item>
+			</items>
+			
+			
+		</templateset>
 	</ingredients>
 	
 	<!-- clippings -->	
@@ -49,6 +69,9 @@
 		
 		<text name="footer_text" name_friendly="Footer Text">
 			<![CDATA[Footer text can be updated in Content Clippings.]]>
+		</text>
+		<text name="dustin_rules" name_friendly="Dustin Rules">
+			<![CDATA[New defualt thing]]>
 		</text>
 		
 	</clippings>
