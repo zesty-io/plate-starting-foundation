@@ -68,7 +68,7 @@
 		</images>
 		
 		<text name="footer_text" name_friendly="Footer Text">
-			<![CDATA[Footer text can be updated in Content Clippings.]]>
+			<![CDATA[Footer text can be updated in Globals.]]>
 		</text>
 		<text name="dustin_rules" name_friendly="Dustin Rules">
 			<![CDATA[New defualt thing]]>
